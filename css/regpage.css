@@ -1,0 +1,166 @@
+@charset "ISO-8859-1";
+
+
+html {
+	font-family: Palatino;
+	margin: 0px;
+	width: 100%;
+	
+}
+
+.header {
+	overflow: hidden;
+	padding: 5px 5px;
+}
+
+.header a {
+	float: left;
+	color: #dedede;
+	text-align: center;
+	padding: 8px;
+	text-decoration: none;
+	font-size: 16px;
+	line-height: 25px;
+	border-radius: 2px;
+}
+
+.header a.logo {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.header a:hover {
+	color: #ffc200;
+}
+
+.header a.active {
+	color: #ffc200;
+}
+
+.header-right {
+	float: right;
+}
+
+button {
+	border: none;
+	outline: 0;
+	display: inline-block;
+	padding: 8px;
+	color: white;
+	text-align: center;
+	cursor: pointer;
+	width: 100%;
+	font-size: 18px;
+}
+
+.btn {
+	background-color: #ffc200;
+	color: #dedede;
+	border: none;
+	cursor: pointer;
+	opacity: 0.9;
+	float: left;
+}
+
+input[type=text], input[type=password] {
+	width: 100%;
+	padding: 15px;
+	margin: 5px 0 22px 0;
+	border: none;
+	background: #ffffff;
+}
+
+input[type=text], input[type=password], select, textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+}
+
+.regnames{
+	width:99%;
+}
+.regfirstname{
+	width: 49%;
+	float: left;
+}
+
+.regsurnmae{
+	width: 49%;
+	float: right;
+}
+
+.regEmail{
+	width:99%;
+}
+
+.regemailleft{
+	width:49%;
+	float: left;
+}
+
+.regemailright{
+	width:49%;
+	float: right;
+}
+
+
+.regpassgender{
+	width:99%;
+}
+
+.regpassword{
+	width: 49%;
+	float: left;
+}
+
+.reggender{
+	width: 49%;
+	float: right;
+}
+
+.regphonesline{
+	width:99%;
+}
+
+.regphone1{
+	width: 49%;
+	float: left; 	
+}
+
+.regphone2{
+	width: 49%;
+	float: right;
+}
+
+.regDOBSubmit{
+	width:99%;
+}
+
+.regDOB{
+	width: 49%;
+	float: left;
+	text-align: left;
+}
+
+.submitBtn{
+	width: 49%;
+	float: right;
+	background-color: #ffc200;
+}
+
+
+.footer {
+	position: float;
+	width: 100%;
+	text-align: center;
+	height: 100%;
+	font-size: 10px;
+	font-weight: bold;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}

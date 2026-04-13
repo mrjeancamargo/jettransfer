@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="pt">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<title>Jet Transfer Ltd</title>
+
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
+	<link rel="stylesheet" href="../css/unicons.css">
+	<link rel="stylesheet" href="../css/owl.carousel.min.css">
+	<link rel="stylesheet" href="../css/owl.theme.default.min.css">
+
+	<!-- MAIN STYLE -->
+	<link rel="stylesheet" href="../css/tooplate-style.css">
+	<!-- CUSTOM STYLE -->
+	<link rel="stylesheet" href="../css/regpage.css">
+
+</head>
+<body>
+
+	<!-- MENU -->
+	<nav class="navbar navbar-expand-sm navbar-light">
+		<div class="container">
+			<a class="navbar-brand" href="index.html"><i class='uil uil-user'></i> Jet Transfer Ltd</a>
+
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+					aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+				<span class="navbar-toggler-icon"></span>
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav mx-auto">
+					<li class="nav-item">
+						<a href="/BR/index.html#about" class="nav-link"><span data-hover="Sobre nós">Sobre nós</span></a>
+					</li>
+					<li class="nav-item">
+						<a href="powerwashing.html" class="nav-link"><span data-hover="Lavagem a Alta Pressão">Lavagem a Alta Pressão</span></a>
+					</li>
+					<li class="nav-item">
+						<a href="/BR/index.html#project" class="nav-link"><span data-hover="Serviços">Serviços</span></a>
+					</li>
+					<li class="nav-item">
+						<a href="register.html" class="nav-link"><span data-hover="Registrar">Registrar</span></a>
+					</li>
+					<li class="nav-item">
+						<a href="/BR/index.html#contact" class="nav-link"><span data-hover="Contato">Contato</span></a>
+					</li>
+				</ul>
+
+				<ul class="navbar-nav ml-lg-auto">
+					<div class="ml-lg-4">
+						<div class="color-mode d-lg-flex justify-content-center align-items-center">
+							<i class="color-mode-icon"></i>
+							modo de cor
+						</div>
+					</div>
+				</ul>
+
+				<!-- LANGUAGE -->
+				<ul class="navbar-nav ml-lg-auto">
+					<div class="ml-lg-4">
+						<div class="d-lg-flex justify-content-center align-items-center">
+							<a href="https://www.jettransfer.ie/register.html" class="nav-link"><span data-hover="Site em inglês">Site em inglês</span></a>
+						</div>
+					</div>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div class="container">
+		<form action="../restApi/registerApi.php" method="POST">
+			<br>
+			<fieldset>
+				<legend>Informações pessoais:</legend>
+
+				<input placeholder="memberID..." type="hidden" value="" name="memberId" id="memberId">
+
+				<div class="regnames">
+					<div class="regfirstname">
+						<label>Primeiro nome</label><input placeholder="Primeiro nome..." type="text" id="memberName" name="memberName" required>
+					</div>
+
+					<div class="regsurnmae">
+						<label>Sobrenome</label><input placeholder="Sobrenome..." type="text" name="memberSurname" id="memberSurname" required>
+					</div>
+				</div>
+
+				<div class="regEmail">
+					<div class="regemailleft">
+						<label>Endereço de e-mail</label><input placeholder="Endereço de e-mail..." type="text" name="memberEmail" id="memberEmail" required>
+					</div>
+
+					<div class="regemailright">
+						<label>Confirmar e-mail</label><input placeholder="Confirmar e-mail..." name="memberEmail" type="text" id="memberEmail" required>
+					</div>
+				</div>
+
+				<div class="regphonesline">
+					<div class="regphone1">
+						<label>Número de celular</label><input placeholder="Número de celular..." name="memberMobilePhone1" type="text" id="memberMobilePhone1" required>
+					</div>
+					<div class="regphone2">
+						<label>Contato Alternativo</label><input placeholder="Contato Alternativo..." name="memberMobilePhone2" type="text" id="memberMobilePhone2" required>
+					</div>
+				</div>
+
+				<div class="regpassgender">
+					<div class="regpassword">
+						<label>Senha</label><input placeholder="Senha..." type="password" name="memberPassword" id="memberPassword" required>
+					</div>
+					<div class="reggender">
+						<label>Gênero</label>
+						<select name="memberGender" id="memberGender" required>
+							<option value="Male">Masculino</option>
+							<option value="Female">Feminino</option>
+						</select>
+					</div>
+				</div>
+
+				<!-- little hack to lign up the form correctly -->
+				<div class="regpassgender">
+					<div class="regpassword">
+						<label></label>
+					</div>
+					<div class="reggender">
+						<label></label>
+					</div>
+				</div>
+
+				<div class="regDOBSubmit">
+					<label>Data de nascimento</label>
+					<input type="date" class="regDOB" name="birthday" id="birthday" required>
+					<button type="submit" class="submitBtn" name="submitBtn">Enviar</button>
+				</div>
+
+				<input placeholder="Seu link de mídia social..." type="hidden" value="" id="memberSocialMedia" name="memberSocialMedia">
+				<input placeholder="Seu apelido..." type="hidden" value="" id="memberNickname" name="memberNickname">
+				<input placeholder="Seu endereço..." type="hidden" value="" id="memberAddress" name="memberAddress">
+				<input placeholder="Sua cidade..." type="hidden" value="" id="memberTown" name="memberTown">
+				<input placeholder="Seu condado..." type="hidden" value="" id="memberCounty" name="memberCounty">
+				<input placeholder="Seu código postal..." type="hidden" value="" id="memberPostCode" name="memberPostCode">
+				<input placeholder="Seu país..." type="hidden" value="" id="memberCountry" name="memberCountry">
+				<input placeholder="Seu Tipo de Documento..." type="hidden" value="" id="memberDoculmentType" name="memberDoculmentType">
+				<input placeholder="Seu número de identificação..." type="hidden" value="" id="memberIdNumber" name="memberIdNumber">
+				<input placeholder="Data de validade da sua identificação..." type="hidden" value="" id="memberIdExpiryDate" name="memberIdExpiryDate">
+				<input placeholder="Sua identificação emitida por..." type="hidden" value="" id="memberIdIssuedBy" name="memberIdIssuedBy">
+				<input placeholder="Seu local de emissão de identificação..." type="hidden" value="" id="memberIdIssuePlace" name="memberIdIssuePlace">
+				<input placeholder="Título do seu trabalho..." type="hidden" value="" id="memberJobTitle" name="memberJobTitle">
+				<input placeholder="Sua nacionalidade..." type="hidden" value="" id="memberNationality" name="memberNationality">
+				<input placeholder="Seu status..." type="hidden" value="" id="memberStatues" name="memberStatues">
+				<input placeholder="Seu estado civil..." type="hidden" value="" id="memberMaritalStatues" name="memberMaritalStatues">
+				<input placeholder="Your Social Media Link..." type="hidden" value="" id="memberStatus" name="memberStatus">
+				<input placeholder="Your Security Question..." type="hidden" value="" id="memberSecurityQuestion" name="memberSecurityQuestion">
+				<input placeholder="Your Security Question Answer..." type="hidden" value="" id="memberSecurityQuestionAnswer" name="memberSecurityQuestionAnswer">
+				<input type="hidden" value=0 id="memberTransactionCount" name="memberTransactionCount">
+				<input type="hidden" value=0 id="memberLoginCount" name="memberLoginCount">
+				<input placeholder="Your Preferred Payment Type" type="hidden" value="" id="memberPreferredPaymentType" name="memberPreferredPaymentType">
+				<input placeholder="What's your nickname?" type="hidden" value="" id="memberNickname" name="memberNickname">
+				<input type="hidden" value="CLIENT" id="memberSecurityId" name="memberSecurityId">
+				<input type="hidden" value="1" id="agentId" name="agentId">
+			</fieldset>
+			<br>
+		</form>
+	</div>
+
+	<!-- FOOTER -->
+	<footer class="footer py-5">
+		<div class="container">
+
+			<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1290266452162223"
+			crossorigin="anonymous"></script>
+		<!-- Horizontal footer -->
+		<ins class="adsbygoogle"
+			style="display:block"
+			data-ad-client="ca-pub-1290266452162223"
+			data-ad-slot="7053759287"
+			data-ad-format="auto"
+			data-full-width-responsive="true"></ins>
+		<script>
+			(adsbygoogle = window.adsbygoogle || []).push({});
+		</script>
+		
+			<div class="row">
+				<div class="col-lg-12 col-12">
+					<p class="copyright-text text-center">direitos autorais &copy; 2022 Jet Transfer Ltd . Todos os direitos reservados</p>
+					<p class="copyright-text-center text-center"> Jet Transfer Limited (CRO 634246) com sede em Murphy Suite, Enterprise Hub, Demesne, Castlerea, Condado de Roscommon, República da Irlanda.</p>
+					<!--é um agente autorizado (FRN547919) de Real Transfer Limited (NI065249) com sede em 58 Howard Street, Belfast BT1 6PJ, Reino Unido, que é regulamentado e totalmente autorizado pela Autoridade de Conduta Financeira do Reino Unido (FRN 535949) para a prestação de serviços de pagamento e um agente autorizado da Jubilee Services Sprl (0639.848.226) com sede em Rue Dethy, 4 - 1060 Bruxelas, Bélgica, e é regulamentado e totalmente autorizado pelo Banco Nacional da Bélgica para a prestação de serviços de pagamento.-->
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script src="../js/jquery-3.3.1.min.js"></script>
+	<script src="../js/popper.min.js"></script>
+	<script src="../js/bootstrap.min.js"></script>
+	<script src="../js/Headroom.js"></script>
+	<script src="../js/jQuery.headroom.js"></script>
+	<script src="../js/owl.carousel.min.js"></script>
+	<script src="../js/smoothscroll.js"></script>
+	<script src="../js/custom.js"></script>
+	<script src="../js/gtag.js"></script>
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-216090944-1"></script>
+
+</body>
+</html>

@@ -1,0 +1,334 @@
+<?php
+include 'connection.php';
+?>
+
+<!DOCTYPE html>
+<html>
+<html lang="pt">
+ <head>
+ <title>Certificado Digital</title>
+
+
+ <meta charset="ISO-8859-1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Jet Transfer Ltd</title>
+
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/unicons.css">
+    <link rel="stylesheet" href="../css/owl.carousel.min.css">
+    <link rel="stylesheet" href="../css/owl.theme.default.min.css">
+
+    <!-- MAIN STYLE -->
+    <link rel="stylesheet" href="../css/tooplate-style.css">
+    <!-- CUSTOM STYLE -->
+    <link rel="stylesheet" href="../css/custom.css">
+ </head>
+<body>
+
+<body>
+
+    <!-- MENU -->
+    <nav class="navbar navbar-expand-sm navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><i class='uil uil-user'></i> Jet Transfer Ltd</a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+               <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a href="/BR/index.html#about" class="nav-link"><span data-hover="Sobre nós">Sobre nós</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="powerwashing.html" class="nav-link"><span data-hover="Lavagem a Alta Pressão">Lavagem a Alta Pressão</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/BR/index.html#project" class="nav-link"><span data-hover="Serviços">Serviços</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="register.html" class="nav-link"><span data-hover="Registrar">Registrar</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/BR/index.html#contact" class="nav-link"><span data-hover="Contato">Contato</span></a>
+                    </li>
+                </ul>
+
+                <!-- LANGUAGE -->
+                <ul class="navbar-nav ml-lg-auto">
+                    <div class="ml-lg-4">
+                        <div class="d-lg-flex justify-content-center align-items-center">
+                            <a href="https://www.jettransfer.ie/certificate.html" class="nav-link"><span data-hover="Site em inglês">Site em inglês</span></a>
+                        </div>
+                    </div>
+                </ul>
+
+                <ul class="navbar-nav ml-lg-auto">
+                    <div class="ml-lg-4">
+                        <div class="color-mode d-lg-flex justify-content-center align-items-center">
+                            <i class="color-mode-icon"></i>
+                            modo de cor
+                        </div>
+                    </div>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- ABOUT -->
+    <section class="about full-screen d-lg-flex justify-content-center align-items-center" id="about">
+
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-7 col-md-12 col-12 d-flex align-items-center">
+                    <div class="about-text">
+                        <h1 class="animated animated-text">
+                            <span class="mr-2">O que é um certificado digital e para que serve?</span>
+
+                        </h1>
+                        <p>Você sabe o que é um certificado digital e para que serve? O certificado digital é a identidade eletrônica de uma pessoa ou empresa. Ele funciona como uma carteira de identificação virtual e permite assinar documentos à distância com o mesmo valor jurídico da assinatura feita de próprio punho no papel, mas sem precisar reconhecer firma em cartório.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-5 col-md-12 col-12">
+                    <div class="about-image svg">
+                        <img src="..\images\certificate\manThinking.jpg" class="img-fluid" alt="Man Thinking">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- VIDEO -->
+    <section class="justify-content-center align-items-center">
+        <div class="container">
+            <iframe width="100%" height="415" src="https://www.youtube.com/embed/ddpt7LXCPE0" title="O que é um certificado digital e para que serve?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <!-- CERTIFICATES -->
+    <section class="resume py-5 d-lg-flex justify-content-center align-items-center" id="certificate">
+        <div class="container">
+            <div class="container text-center">
+
+                <h3>Nossas opções de certificado</h3>
+                <br />
+                <div class="row text-center">
+                    <div class="col-sm-4">
+                        <img src="..\images\icons\icon-certificado-a1.png" class="img-fluid partner_images" alt="Icon para certificado A1">
+                        <p>Certificado A1</p>
+                        <p>É emitido e armazenado diretamente no computador e é válido por um ano.</p>
+                    </div>
+                    <div class="col-sm-4">
+                        <img src="..\images\icons\icon-certificado-a3.png" class="img-fluid partner_images" alt="Icon para certificado A3">
+                        <p>Certificado A3</p>
+                        <p>Ele é armazenado em um token (que é semelhante a um pendrive) ou em um smartcard que precisa de um leitor específico. ambos os quais podem ser válidos por um, dois ou três anos.</p>
+                    </div>
+                    <div class="col-sm-4">
+                        <img src="..\images\icons\icon-certificado-bird-id.png" class="img-fluid partner_images" alt="Icon para certificado bird ID">
+                        <p>Certificado BirdID</p>
+                        <p>Armazenado na nuvem</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- QUERIES CONTACT OPTION -->
+    <section class="resume py-5 d-lg-flex justify-content-center align-items-center" id="help">
+        <div class="container">
+            <div class="container text-center">
+                <h3>Ainda precisa de ajuda?</h3>
+                <h4>Você pode entrar em contato conosco através de nossos canais de atendimento.</h4>
+                <br />
+                <div class="row text-center">
+                    <div class="col-sm-4">
+                        <img src="..\images\icons\whatsapp_2.png" class="img-fluid partner_images" alt="Icon for whatsapp">
+                        <a href="https://api.whatsapp.com/send?phone=353872934756&text=Ol%C3%A1%20Camargo%2C%20preciso%20de%20um%20Certificado%20Digital%2C%20mas%20n%C3%A3o%20estou%20no%20Brasil.%20Pode%20me%20ajudar%3F" target="_blank">
+                            <br />
+                            Whatsapp
+                        </a>
+                    </div>
+                    <div class="col-sm-4">
+                        <img src="..\images\icons\telefone_2.png" class="img-fluid partner_images" alt="Icon for telephone">
+                        <br />
+                        <p>+353 87 293 4756</p>
+                    </div>
+                    <div class="col-sm-4">
+                        <img src="..\images\icons\email_2.png" class="img-fluid partner_images" alt="Icon for email">
+                        <br />
+                        <a href="mailto:info@jettransfer.ie">Envie-nos um e-mail hoje</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seu Certificado Digital emitido na Europa -->
+    <section class="justify-content-center align-items-center container text-center" id="FAQ">
+        <div class="container">
+            <h1>Perguntas Frequentes</h1><br />
+        </div>
+    </section>
+
+    <section class="justify-content-center align-items-center container text-left">
+        <div class="container">
+            <!-- PERGUNTAS -->
+
+            <h3>Qual a utilidade de um Certificado Digital?</h3><br />
+            <p>
+                O Certificado Digital permite que você assine documentos eletrônicos com validade jurídica, o que evita deslocamentos e autenticações. Com ele, você também envia informações de forma segura e acessa áreas restritas de sites do Governo, como o e-CAC (Centro Virtual de Atendimento da Receita Federal). Tudo isso significa economia de tempo e dinheiro.
+            </p>
+
+            <h3>Quais os usos mais frequentes dos Certificados Digitais?</h3><br />
+            <p>
+                O que mais vemos em nossa rotina são procurações, contratos, compra e venda de imóveis, venda de automóveis, casamento e divórcio, inventário, abertura e encerramento de contas bancárias, empréstimo consignado, acesso ao e-CAC (Centro Virtual de Atendimento da Receita Federal), abertura e encerramento de empresas, recolhimento do FGTS, serviços junto ao Detran e petições eletrônicas (para advogados), entre muitos outros usos.
+            </p>
+
+            <h3>Qualquer pessoa pode ter um Certificado Digital?</h3><br />
+            <p>
+                Sim. Tanto pessoas físicas como pessoas jurídicas podem ter Certificado Digital ICP-Brasil.
+            </p>
+
+            <h3>Estrangeiro também pode ter Certificado Digital ICP-Brasil?</h3><br />
+            <p>
+                Sim. Basta que tenha CPF e apresente seu passaporte. Não é necessário que tenha CIE (RNE).
+            </p>
+
+            <h3>Que documentos de identificação são aceitos?</h3><br />
+            <p>
+                Passaporte, RG e CNH, assim como CIE, Identidade Funcional e Carteira de Entidade de Classe em algumas situações. Consulte-nos.
+            </p>
+
+            <h3>Que tipos de certificado ICP-Brasil vocês emitem?</h3><br />
+            <p>
+                Emitimos o E-CPF, Certificado Digital para pessoas físicas, e o E-CNPJ, Certificado Digital para pessoas jurídicas. Ambos podem ser do tipo A1, que tem validade de 1 ano, ou A3, que tem validade de 3 anos. O A1 é fornecido na forma de arquivo para ser armazenado no computador do cliente. Já o A3 pode ser fornecido tanto em token como em smart card.
+            </p>
+
+            <h3>Qual a diferença entre Certificado A1 e A3?</h3><br />
+            <p>
+                O Certificado A1 tem validade de 1 ano e fica armazenado no seu computador. Ele é ideal para quem deseja um certificado com menor custo.
+                O Certificado A3 tem um nível de segurança maior e validade de 3 anos. Ele fica armazenado em um token ou em um smart card, podendo ser usado em diferentes computadores.
+            </p>
+
+            <h3>O que significa token? E smart card?</h3>
+            <p>
+                Token é um dispositivo que se assemelha visualmente a um pen drive, mas as informações nele contidas são protegidas por senha e criptografia.
+                O smart card tem a mesma função. A diferença é que necessita de uma leitora para ser conectado ao computador, diferentemente do token, que pode ser conectado diretamente na entrada USB.
+            </p>
+
+            <h3>Posso emitir meu Certificado Digital online?</h3>
+            <p>
+                Depende. Se você tiver CNH (Carteira Nacional de Habilitação) emitida a partir de 2 de maio de 2017, sua biometria já estará cadastrada. Nesse caso, você poderá emitir seu Certificado ICP-Brasil online. Caso contrário, será necessário fazer a emissão presencial, a fim de que possa ser cadastrada a sua biometria.
+                Consulte-nos para saber se seu CPF permite a emissão de Certificado Digital à distânc
+            </p>
+
+            <h3>Onde vocês atendem? </h3>
+            <p>
+                Atendemos tanto em nossa sede, localizada na Irlanda, como também vamos até o cliente, em qualquer lugar da Europa.
+            </p>
+
+            <h3>Como recebo o Certificado Digital?</h3>
+            <p>
+                Se você optou por um Certificado A1, receberá o link para fazer o download por e-mail. Caso você tenha escolhido um A3, já sairá com o ele instalado num token ou smart card.
+            </p>
+
+            <h3>Quais as etapas de emissão de um Certificado Digital?</h3>
+            <p>
+                Primeiramente são conferidos os documentos do cliente. Em seguida, é feita a coleta da sua biometria (foto e impressões digitais). Após a validação dos dados pelo Agente de Registro, é feita uma verificação no Brasil. Na sequência, é emitido o Certificado Digital.
+            </p>
+        </div>
+    </section>
+     <!-- CONTACT -->
+     <section class="contact py-5" id="contact">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-5 mr-lg-5 col-12">
+                    <div class="google-map w-100">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2358.258223388739!2d-8.478483484011404!3d53.76709025081303!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x485c1de8ecd1aa11%3A0x850fc61e2cf5498b!2sThe%20Hub!5e0!3m2!1sen!2sie!4v1632055480515!5m2!1sen!2sie" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>
+
+                    <div class="contact-info d-flex justify-content-between align-items-center py-4 px-lg-5">
+                        <div class="contact-info-item">
+                            <h3 class="mb-3 text-white">Diga olá</h3>
+                            <p class="footer-text mb-0">+353 87 293 4756</p>
+                            <p><a href="mailto:info@jettransfer.ie">info@jettransfer.ie</a></p>
+                        </div>
+
+                        <ul class="social-links">
+                            <li><a href="https://www.facebook.com/jettransferltd/" class="uil uil-facebook" data-toggle="tooltip" data-placement="left" title="Facebook"></a></li>
+                            <li><a href="https://www.instagram.com/jettransfer/" class="uil uil-instagram" data-toggle="tooltip" data-placement="left" title="Instagram"></a></li>
+                        </ul>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-6 col-12">
+                    <div class="contact-form">
+                        <h2 class="mb-4">Interessado em trabalhar juntos? Vamos conversar</h2>
+
+                        <form action="../restApi/sendMsgApi.php" method="POST">
+                            <div class="row">
+                                <div class="col-lg-6 col-12">
+                                    <input type="text" class="form-control" name="senderName" placeholder="Seu nome" id="senderName" required>
+                                </div>
+
+                                <div class="col-lg-6 col-12">
+                                    <input type="email" class="form-control" name="senderEmail" placeholder="E-mail" id="senderEmail" required>
+                                </div>
+
+                                <div class="col-12">
+                                    <textarea name="senderMessage" rows="6" class="form-control" id="senderMessage" placeholder="Mensagem" required></textarea>
+                                </div>
+
+                                <div class="ml-lg-auto col-lg-5 col-12">
+                                    <input type="submit" class="form-control submit-btn" name="submitBtn" value="Enviar">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer class="footer py-5">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-12 col-12">
+                    <p class="copyright-text text-center">direitos autorais &copy; 2022 Jet Transfer Ltd . Todos os direitos reservados</p>
+                    <p class="copyright-text-center text-center"> Jet Transfer Limited (CRO 634246) com sede em Murphy Suite, Enterprise Hub, Demesne, Castlerea, Condado de Roscommon, República da Irlanda.</p>
+                    <!--é um agente autorizado (FRN547919) de Real Transfer Limited (NI065249) com sede em 58 Howard Street, Belfast BT1 6PJ, Reino Unido, que é regulamentado e totalmente autorizado pela Autoridade de Conduta Financeira do Reino Unido (FRN 535949) para a prestação de serviços de pagamento e um agente autorizado da Jubilee Services Sprl (0639.848.226) com sede em Rue Dethy, 4 - 1060 Bruxelas, Bélgica, e é regulamentado e totalmente autorizado pelo Banco Nacional da Bélgica para a prestação de serviços de pagamento.-->
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/jquery-3.3.1.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/Headroom.js"></script>
+    <script src="../js/jQuery.headroom.js"></script>
+    <script src="../js/owl.carousel.min.js"></script>
+    <script src="../js/smoothscroll.js"></script>
+    <script src="../js/custom.js"></script>
+    <script src="../js/gtag.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-216090944-1"></script>
+
+ </body>
+</html>
