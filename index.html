@@ -50,9 +50,6 @@
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a href="register.html" class="nav-link"><span data-hover="Register">Register</span></a>
-                    </li>
-                    <li class="nav-item">
                         <a href="index.html#contact" class="nav-link"><span data-hover="Contact">Contact</span></a>
                     </li>
                 </ul>
@@ -104,23 +101,6 @@
         </div>
     </section>
 
-    <!-- Begin subscription Signup Form -->
-    <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
-    <div id="mc_embed_signup">
-        <form action="restApi/subscribe.php" method="POST" id="mc-embedded-subscribe-form">
-            <div id="mc_embed_signup_scroll">
-                <label for="senderEmail">Subscribe</label>
-                <input type="email" class="email" name="senderEmail" placeholder="E-mail" id="senderEmail" required>
-
-                <div style="position: absolute; left: -5000px;" aria-hidden="true"></div>
-                <div class="clear"><input type="submit" value="Subscribe" name="submitBtn" class="button"></div>
-
-            </div>
-        </form>
-    </div>
-
-
-    <!--End mc_embed_signup-->
     <!-- PROJECTS -->
     <section class="project py-5" id="project">
         <div class="container">
@@ -223,33 +203,6 @@
                             <li><a href="https://www.facebook.com/jettransferltd/" class="uil uil-facebook" data-toggle="tooltip" data-placement="left" title="Facebook"></a></li>
                             <li><a href="https://www.instagram.com/jettransfer/" class="uil uil-instagram" data-toggle="tooltip" data-placement="left" title="Instagram"></a></li>
                         </ul>
-                    </div>
-                </div>
-
-
-                <div class="col-lg-6 col-12">
-                    <div class="contact-form">
-                        <h2 class="mb-4">Interested to work together? Let's talk</h2>
-
-                        <form action="restApi\sendMsgApi.php" method="POST">
-                            <div class="row">
-                                <div class="col-lg-6 col-12">
-                                    <input type="text" class="form-control" name="senderName" placeholder="Your Name" id="senderName" required>
-                                </div>
-
-                                <div class="col-lg-6 col-12">
-                                    <input type="email" class="form-control" name="senderEmail" placeholder="Email" id="senderEmail" required>
-                                </div>
-
-                                <div class="col-12">
-                                    <textarea name="senderMessage" rows="6" class="form-control" id="senderMessage" placeholder="Message" required></textarea>
-                                </div>
-
-                                <div class="ml-lg-auto col-lg-5 col-12">
-                                    <input type="submit" class="form-control submit-btn" name="submitBtn" value="Send Button">
-                                </div>
-                            </div>
-                        </form>
                     </div>
                 </div>
 
